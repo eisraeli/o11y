@@ -7,7 +7,7 @@ metadata:
   namespace: o11y
 spec:
   groups:
-    - name: example
+    - name: example2
       rules:
         - record: o11y_prometheus_http_requests_total
           expr: sum by (code) (prometheus_http_requests_total)
